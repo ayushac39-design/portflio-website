@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Chauhan · Backend Developer</title>
+  <meta name="description" content="Backend developer portfolio of Ayush Chauhan - Node.js, Python, APIs, and scalable systems.">
+  <meta name="author" content="Ayush Chauhan">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo">ayush<span class="logo-accent"> chauhan</span></a>
+      <div class="nav-links">
+        <a href="#work">work</a>
+        <a href="#stack">stack</a>
+        <a href="#projects">projects</a>
+        <a href="#contact" class="btn-outline-sm"><i class="fab fa-github"></i> github</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="hero">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="badge"><i class="fas fa-code"></i> backend engineering</div>
+            <h1>building apis & <span class="highlight">backend systems</span> that scale</h1>
+            <p class="hero-desc">Ayush Chauhan — backend developer focused on Node.js, Python, databases & clean architecture. BCA student (2024–27).</p>
+            <div class="hero-stats">
+              <div class="stat"><span>12+</span><span>projects</span></div>
+              <div class="stat"><span>10</span><span>repositories</span></div>
+              <div class="stat"><span>2y</span><span>hands-on</span></div>
+            </div>
+            <a href="#projects" class="btn-primary"><i class="fab fa-node-js"></i> explore backend work</a>
+          </div>
+          <div class="avatar-area">
+            <div class="avatar-circle">
+                       <img id="profileImage" src="image_ef1112ee.png" alt="Ayush Chauhan" onerror="this.onerror=null; this.style.display='none'; document.getElementById('avatarIcon').style.display='flex';">
+              <i id="avatarIcon" class="fas fa-terminal" style="display: none;"></i>
+            </div>
+            <p class="avatar-name">ayush chauhan </p>
+          </div>
+        </div>
+      </div>
+
+      <section id="stack">
+        <h2 class="section-title"><i class="fas fa-database"></i> backend toolkit</h2>
+        <div class="skills-cloud" id="skillsCloud"></div>
+        <div class="backend-showcase">
+          <div class="showcase-grid">
+            <div class="showcase-card"><i class="fas fa-cogs"></i><br/>microservices</div>
+            <div class="showcase-card"><i class="fas fa-shield-alt"></i><br/>secure by design</div>
+            <div class="showcase-card"><i class="fas fa-charging-station"></i><br/>api optimization</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2 class="section-title"><i class="fas fa-star"></i> featured projects</h2>
+        <div class="repo-grid" id="repoGrid"></div>
+      </section>
+
+      <section id="work">
+        <h2 class="section-title"><i class="fas fa-chart-simple"></i> github contributions</h2>
+        <div class="contrib-calendar">
+          <div class="year-buttons" id="yearToggle">
+            <button class="year-btn active" data-year="2026">2026</button>
+            <button class="year-btn" data-year="2025">2025</button>
+          </div>
+          <div id="contribGrid" class="contrib-mock"></div>
+          <p class="contrib-text"><i class="fas fa-code-branch"></i> 280+ commits · backend & API development</p>
+        </div>
+      </section>
+
+      <section id="education">
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> education</h2>
+        <div class="education-card">
+          <div class="edu-header">
+            <i class="fas fa-university"></i>
+            <div>
+              <h3>Bachelor of Computer Applications (BCA)</h3>
+              <p class="college-name">GNIOT Group of Professional Studies</p>
+            </div>
+            <span class="year-badge">2024 - 2027</span>
+          </div>
+          <div class="edu-details">
+            <div class="edu-info">
+              <i class="fas fa-calendar-alt"></i>
+              <span>3rd Year • Current Student</span>
+            </div>
+            <div class="edu-info">
+              <i class="fas fa-chart-line"></i>
+              <span>Expected Graduation: 2027</span>
+            </div>
+            <div class="edu-info">
+              <i class="fas fa-code"></i>
+              <span>Backend Development, Databases, API Design</span>
+            </div>
+          </div>
+          <div class="internship-badge">
+            <i class="fas fa-briefcase"></i>
+            <strong>🔍 Actively looking for Backend Developer Internship</strong>
+            <span class="availability">Available for immediate joining</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section-title"><i class="fas fa-address-card"></i> connect & collaborate</h2>
+        <div class="contact-card">
+          <i class="fas fa-paper-plane contact-icon"></i>
+          <p class="contact-text">Let's build scalable backends, APIs, and robust systems.</p>
+          <div class="social-links" id="socialLinks"></div>
+          <div class="profile-footer">
+            <i class="fas fa-edit"></i> BCA (2024–2027) · Full-Stack Aspiring · Open for backend collaborations
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Ayush Chauhan — Backend Developer | built with focus on clean APIs & scalable systems</p>
+    </div>
+  </footer>
+
+  <script src = "web.js"></script>
+</body>
+</html>
